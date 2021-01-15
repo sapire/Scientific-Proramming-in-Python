@@ -1,0 +1,10 @@
+{
+  "groupby": "Color",
+  "features":
+  [
+    {"Color":{"type":"categorical", "aggregate":"mode"}},
+    {"Kilometers":{"type":"numerical", "aggregate":"max"}},
+    {"Model":{"type":"categorical", "aggregate":"unique"}},
+    {"Comment": {"type":"textual"}}
+  ]
+}
